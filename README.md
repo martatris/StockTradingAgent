@@ -7,13 +7,13 @@ The model uses **Proximal Policy Optimization (PPO)** combined with a **dual var
 
 ## 📊 Features
 
-✅ **Automatic stock data download** (AAPL, MSFT, GOOG, AMZN) using `yfinance`  
-✅ **Multi-asset continuous portfolio allocation** (weights sum to 1)  
-✅ **Custom OpenAI Gym environment**  
-✅ **Drawdown-constrained PPO training**  
-✅ **Lagrangian dual updates** (adaptive risk control)  
-✅ **PyTorch-based actor–critic architecture**  
-✅ **Easy to modify and extend**
+- **Automatic stock data download** (AAPL, MSFT, GOOG, AMZN) using `yfinance`
+- **Multi-asset continuous portfolio allocation** (weights sum to 1)
+- **Custom OpenAI Gym environment**
+- **Drawdown-constrained PPO training**
+- **Lagrangian dual updates** (adaptive risk control)
+- **PyTorch-based actor–critic architecture**
+- **Easy to modify and extend**
 
 ---
 
