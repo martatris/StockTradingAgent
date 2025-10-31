@@ -5,7 +5,7 @@ The model uses **Proximal Policy Optimization (PPO)** combined with a **dual var
 
 ---
 
-## 📊 Features
+## Features
 
 - **Automatic stock data download** (AAPL, MSFT, GOOG, AMZN) using `yfinance`
 - **Multi-asset continuous portfolio allocation** (weights sum to 1)
@@ -17,7 +17,7 @@ The model uses **Proximal Policy Optimization (PPO)** combined with a **dual var
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 .
@@ -29,7 +29,7 @@ The model uses **Proximal Policy Optimization (PPO)** combined with a **dual var
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. **Create environment**
    ```bash
@@ -44,7 +44,7 @@ The model uses **Proximal Policy Optimization (PPO)** combined with a **dual var
 
 ---
 
-## 🚀 Running the Training
+## Running the Training
 
 Simply run:
 ```bash
@@ -69,7 +69,7 @@ python train_lagrangian_portfolio.py
 
 ---
 
-## 🧠 Algorithm Overview
+## Algorithm Overview
 
 The agent optimizes the objective:
 
@@ -86,7 +86,7 @@ This ensures the policy improves performance **without exceeding the drawdown co
 
 ---
 
-## 🧪 Configuration
+## Configuration
 
 You can adjust hyperparameters inside the script:
 
@@ -103,7 +103,7 @@ trainer.train(epochs=20, steps_per_epoch=300)
 
 ---
 
-## 🧰 Tips
+## Tips
 
 - Use `CTRL + C` to stop training early.
 - To change tickers, edit:
@@ -114,7 +114,7 @@ trainer.train(epochs=20, steps_per_epoch=300)
 
 ---
 
-## 📈 Expected Behavior
+## Expected Behavior
 
 During training, the agent should:
 - Gradually increase average returns (`rollout_return`)
@@ -123,7 +123,7 @@ During training, the agent should:
 
 ---
 
-## 🧩 Future Extensions
+## Future Extensions
 
 - Add **GAE (Generalized Advantage Estimation)**  
 - Support **minibatch PPO updates**  
