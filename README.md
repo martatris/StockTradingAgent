@@ -1,4 +1,4 @@
-# 🧠 Lagrangian-Constrained Stock Trading Agent (Reinforcement Learning)
+# Lagrangian-Constrained Stock Trading Agent (Reinforcement Learning)
 
 This project implements a **multi-asset portfolio trading agent** using **Reinforcement Learning (RL)** with a **Lagrangian constraint** to limit portfolio drawdown.  
 The model uses **Proximal Policy Optimization (PPO)** combined with a **dual variable update** that enforces a *maximum drawdown constraint* — balancing risk and reward.
